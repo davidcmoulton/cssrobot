@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Robot in css</title>
+    <link href="robot.css" rel="stylesheet">
+</head>
+<body>
+    <!-- TODO:  make both red buttons shiny OKAY??!! -->
+    <div class="robot">
+        <div class="not-legs">
+            <div class="antenna">
+                <div class="ball"></div>
+                <div class="stalk">
+                    <div class="stalk left"></div>
+                    <div class="stalk middle"></div>
+                    <div class="stalk right"></div>
+                </div> <!-- /.stalk -->
+            </div> <!-- /.antenna -->
+
+            <div class="head">
+                <div class="ear left"></div>
+                <div class="face">
+                    <div class="glint-top-left">
+                        <div class="glint"></div>
+                        <div class="top mask"></div>
+                        <div class="left mask"></div>
+                    </div> <!-- /.glint-top-left -->
+                    <div class="eye left"></div>
+                    <div class="eye right"></div>
+                    <div class="cheek-top right"></div>
+                </div> <!-- /.face -->
+                <div class="ear right"></div>
+                <div class="jaw">
+                    <div class="mouth left"></div>
+                    <div class="glint-bottom-left">
+                        <div class="glint"></div>
+                        <div class="bottom mask"></div>
+                        <div class="left mask"></div>
+                    </div> <!-- /.glint-bottom-left -->
+                    <div class="mouth left-lips"></div>
+                    <div class="mouth middle"></div>
+                    <div class="mouth right-lips"></div>
+                    <div class="mouth right"></div>
+                    <div class="cheek-bottom right"></div>
+                </div> <!-- /.jaw -->
+            </div> <!-- /.head -->
+
+            <div class="arm left">
+                <div class="shoulder"></div>
+                <div class="upper"></div>
+                <div class="lower"></div>
+                <div class="wrist"></div>
+                <div class="hand">
+                    <div class="end">
+                        <div class="outer"></div>
+                        <div class="middle"></div>
+                        <div class="inner"></div>
+                    </div> <!-- /.end -->
+                    <div class="middle"></div>
+                    <div class="top"></div>
+                </div> <!-- /.hand -->
+            </div> <!-- /.arm.left -->
+
+            <div class="torso">
+                <div class="screen-wrapper">
+                    <div class="screen">
+                        <div class="trace peak1 left"></div>
+                        <div class="trace peak1 right"></div>
+                        <div class="trace peak2 left"></div>
+                        <div class="trace peak2 right"></div>
+                        <div class="trace peak3 left"></div>
+                        <!-- There is no such thing as peak3.right -->
+                        <div class="trace peak4 left"></div>
+                        <div class="trace peak4 right"></div>
+                        <div class="trace peak5 left"></div>
+                        <div class="trace peak5 right"></div>
+                        <!-- Tried to use pseudo element
+                                trace.peak5.right::after, but
+                                couldn't get it to scale and
+                                position properly. Using
+                                element trace.tail instead -->
+                        <div class="trace tail"></div>
+                     </div> <!-- /.screen -->
+                </div> <!-- /.screen-wrapper -->
+                <div class="controls">
+                    <div class="control top"></div>
+                    <div class="control bottom"></div>
+                </div> <!-- /.controls -->
+            </div> <!-- /.torso -->
+
+            <div class="arm right">
+                <div class="shoulder"></div>
+                <div class="upper"></div>
+                <div class="lower"></div>
+                <div class="wrist"></div>
+                <div class="hand">
+                    <div class="end">
+                        <div class="outer"></div>
+                        <div class="middle"></div>
+                        <div class="inner"></div>
+                    </div> <!-- /.end -->
+                    <div class="middle"></div>
+                    <div class="top"></div>
+                </div> <!-- /.hand -->
+            </div> <!-- /.arm.right -->
+        </div>
+
+        <div class="legs">
+            <div class="leg left">
+                <div class="chunk"></div>
+                <div class="chunk"></div>
+                <div class="chunk"></div>
+                <div class="chunk"></div>
+                <div class="foot"></div>
+            </div> <!-- /.leg.left -->
+            <div class="leg right">
+                <div class="chunk"></div>
+                <div class="chunk"></div>
+                <div class="chunk"></div>
+                <div class="chunk"></div>
+                <div class="foot"></div>
+            </div> <!-- /.leg.right -->
+        </div> <!-- /.legs -->
+    </div>
+</body>
+</html>
