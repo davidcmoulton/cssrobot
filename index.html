@@ -14,13 +14,22 @@
         </header>
         <p>So I had this random idea to build a robot in HTML and CSS. It had to move, to be engaging. My rules were simple, and possibly masochistic: I decided I would allow myself to use no JavaScript, and no images. This had to be done just in HTML and CSS, otherwise it would be too easy, and so not enough fun.</p>
         <p>Here it is:</p>
-      
+
       <div class="bubble-wrap"><iframe src="robot.html" width="1000" height="1400" scrolling="no" frameborder="no"></iframe></div>
-      
-      <p>Made by <a href="http://www.twitter.com/davidcmoulton">@davidcmoulton</a></p>
-      
-      <p>Full size it's a bit big, so it's loading in an iframe to scale it down. Also, there's what I think is a bug in Chrome whereby its blue light doesn't turn off at the end. Works okay in Firefox. This chap uses CSS transformations and animations, so won't work in non-supporting browsers.</p>
+
+      <p>Made by <a href="http://www.twitter.com/davidcmoulton">@davidcmoulton</a>.</p>
+
+      <p>Full size it's a bit big, so it's loading in an iframe to scale it down (it's not responsive in <em>that</em> way). Also, there's what I think is a bug in Chrome whereby its blue light doesn't turn off at the end. This chap uses CSS transformations and animations, so won't work in non-supporting browsers. It's fine in Firefox, Opera Next, Safari, IE10+, etc.</p>
       <p><small>I've no idea where the original artwork came from. I found the image that inspired this on my laptop, so must have come across it it ages ago for something, but I've forgotten what.</small></p>
     </main>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-47606517-1', 'cssrobot.com');
+      ga('send', 'pageview');
+  </script>
   </body>
 </html>
