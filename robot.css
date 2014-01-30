@@ -1,3 +1,11 @@
+/*  Thanks for stopping by. */
+/*  There is a lot of redundancy in this code. I deliberately
+    left it in as I built it, as it made it easier to change:
+    as bugs occurred, and as things needed altering. The version
+    you see here hasn't been refactored for efficiency yet.
+    Building this by hand has been a great experience...
+    ... but next time I'm using a pre-processor! :-) */
+
 /* defaults */
 html, body {
     margin: 0;
@@ -16,7 +24,7 @@ div {
 /* main */
 body {
   width: 500px;
-  height: 510px;  
+  height: 510px;
 }
 
 .robot {

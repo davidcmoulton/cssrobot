@@ -6,6 +6,17 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <meta name="description" content="An animated robot built using purely CSS and HTML, no JavaScript and no images allowed."/>
+    <script>
+      // Google Analytics stuff
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-47606517-1', 'cssrobot.com');
+      ga('send', 'pageview');
+    </script>
+
   </head>
   <body>
       <main>
@@ -22,14 +33,5 @@
       <p>Full size it's a bit big, so it's loading in an iframe to scale it down (it's not responsive in <em>that</em> way). Also, there's what I think is a bug in Chrome whereby its blue light doesn't turn off at the end. This chap uses CSS transformations and animations, so won't work in non-supporting browsers. It's fine in Firefox, Opera Next, Safari, IE10+, etc.</p>
       <p><small>I've no idea where the original artwork came from. I found the image that inspired this on my laptop, so must have come across it it ages ago for something, but I've forgotten what.</small></p>
     </main>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-47606517-1', 'cssrobot.com');
-      ga('send', 'pageview');
-  </script>
   </body>
 </html>
